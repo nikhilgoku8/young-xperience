@@ -12,8 +12,8 @@
 }
 @media only screen and (max-width: 1280px) {
 header{
-	padding:1%;
-	}
+	/*padding:1%;*/
+}
 
 
 }
@@ -33,11 +33,11 @@ header{
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 /* Styles */
 #main{
-	  width:100%;
-	  padding:0;
-	  margin:0 auto;
-	  padding-top:56px;
-	}
+	width:100%;
+	padding:0;
+	margin:0 auto;
+	padding-top:56px;
+}
 header nav{
     width: 70%;
 }
@@ -45,6 +45,7 @@ header nav{
     padding: 5px 1px 5px 10px;
     font-size: 11px;
 }
+
 }
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
@@ -67,7 +68,7 @@ header .logo{
 	}
 header.smaller .logo{
 	width:12%;
-	}
+}
 
 
 }
@@ -75,25 +76,25 @@ header.smaller .logo{
 @media only screen and (min-device-width : 480px) and (max-device-width : 767px) and (orientation : landscape) {
 #main{
 	padding:0px;
-	}
+}
 header{
 	padding:1% 0 2% 0!important;
-	}
+}
 header.smaller {
     height:70px!important;
-	}
+}
 header .logo {
     float:left!important;
     width:23%!important;
 	position:absolute;
 	left:20px;
-	}
+}
 header nav {
     display:inline-block;
     float:right;
     padding:2% 2% 0 0!important;    
     width:100%;
-	}
+}
 
 }
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -118,13 +119,13 @@ header .logo {
 	position:absolute;
 	left:20px;
 	top:10px!important;
-	}
+}
 header nav {
     display:inline-block;
     float:right;
     padding:4% 0 0 0;
     width:100%;
-	}
+}
 header.smaller .logo {
 	width:60%;
 	text-align:center;
@@ -133,7 +134,7 @@ header.smaller .logo {
 }
 #main{
 	padding:0px;
-	}
+}
 
 
 }
@@ -155,12 +156,11 @@ p{
 }
 .fa_menuarrow{
 	display:none!important;
-	}
+}
 header {
-width: 100%;
-    height: auto;
-    position: fixed; 
-  
+	width: 100%;
+	height: auto;
+	position: fixed;
 }
 header.smaller {
 	top:0;
@@ -168,20 +168,15 @@ header.smaller {
 	background-color:#fff;
 }
 header .logo {
-float: left!important;
-    width: 37%!important;
-    position: absolute;
-    left: 20px;
-    top: 14px!important;
-    z-index: 999;
-	}
+	z-index: 999;
+}
 header nav {
-    display:inline-block;
-    float:right;
-    padding:2% 2% 0 0;
-    width:100%;
-    margin-top: 0%;
-	}
+	display:inline-block;
+	float:right;
+	padding:2% 2% 0 0;
+	width:100%;
+	margin-top: 0%;
+}
 header.smaller .logo {
 	width:60%;
 	text-align:center;
@@ -190,7 +185,7 @@ header.smaller .logo {
 }
 
 #main {
-    padding-top: 54px!important;
+    /*padding-top: 54px!important;*/
 }
 .ace-responsive-menu > li > a {
     padding: 5px 0 0 12px!important;
@@ -198,6 +193,29 @@ header.smaller .logo {
 .ace-responsive-menu > li {
     padding: 8px 0!important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 /* Smartphones (landscape) ----------- */

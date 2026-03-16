@@ -15,7 +15,9 @@
 
 <!---fonts-->
 <link href="css/fontawesome.7.0.1.min.css" rel="stylesheet" type="text/css" />
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
 <!-- Swiper Slider -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
@@ -33,7 +35,7 @@
 <body>
 
 <header>
-    <div class="container">
+    <div class="contain_90">
         <div class="inner_container">
 
             <div class="logo">
@@ -51,7 +53,7 @@
                 <!-- Responsive Menu Structure-->
                 <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
                 <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
-                    <li>
+                    <!-- <li>
                         <a>
                             <span class="title">About</span>
                             <span class="arrow"></span> 
@@ -59,10 +61,40 @@
                         <ul>
                             <li><a href="#">Lorem Ipsum 1</a></li>
                         </ul>
+                    </li> -->
+                    <li>
+                        <a href="#">
+                            <span class="title">Home</span>
+                        </a>
                     </li>
                     <li>
                         <a href="#">
-                            <span class="title">Lorem Ipsum 2</span>
+                            <span class="title">About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="title">Services</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="title">Menus</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="title">Venues</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="title">Blogs</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="title">Pages</span>
                         </a>
                     </li>
                 </ul>
@@ -75,6 +107,26 @@
 
 
 <div id="main">
+
+<div class="hero">
+    <div class="img_box">
+        <img src="images/hero.jpg">
+    </div>
+    <div class="text_overlay">
+        <div class="inner_box">
+            <div class="heading">FROM SETS TO STORIES. <br> FROM EVENTS TO <br> ENGAGEMENT.</div>
+            <p>Young Xperiences is a natural evolution of two proven creative legacies - Young (est. 2009) and <br>
+                Kreative Hook (est. 2011). Together, we bring over a decade of experience in branding, content, set creation, and event <br>
+                 execution to deliver experiences that don’t just look good - they work harder for brands.</p>
+        </div>
+    </div>
+</div>
+<!-- hero -->
+
+<section class="section_2">
+    <div class="heading orange">FROM SETS TO STORIES.<br>FROM EVENTS TO ENGAGEMENT.</div>
+    <p class="center">An experience-led event and setup company creating high-impact environments that fuel authentic<br>content, brand visibility, and real engagement — on-ground and across digital platforms.</p>
+</section>
 
 <!-- Slider main container -->
 <div class="swiper">
@@ -97,6 +149,7 @@
 </div>
 
 </div>
+<!-- main -->
 
 
 
