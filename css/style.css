@@ -227,3 +227,14 @@ header.smaller nav {
 section{
 	padding: 5vw 0;
 }
+.swiper-slide{
+	width: 40vw;
+	min-width: 700px;
+	user-select: none;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+	bottom: -20px;
+}
+.coverflow_slider_wrapper{
+	padding: 3vw 0 0;
+}

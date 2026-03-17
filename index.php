@@ -126,27 +126,44 @@
 <section class="section_2">
     <div class="heading orange">FROM SETS TO STORIES.<br>FROM EVENTS TO ENGAGEMENT.</div>
     <p class="center">An experience-led event and setup company creating high-impact environments that fuel authentic<br>content, brand visibility, and real engagement — on-ground and across digital platforms.</p>
+    <div class="coverflow_slider_wrapper">
+        <!-- Slider main container -->
+        <div class="coverflow_slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="images/events/1.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/events/1.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/events/1.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/events/1.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/events/1.png">
+                </div>
+                <!-- <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div> -->
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+    </div>
 </section>
 
-<!-- Slider main container -->
-<div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
 
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-</div>
 
 </div>
 <!-- main -->
@@ -206,8 +223,42 @@ $(document).ready(function(){
 new WOW().init();
 </script> -->
 
+
+<!-- Slider main container -->
+<!-- <div class="swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+    </div>
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <div class="swiper-scrollbar"></div>
+</div> -->
+
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 <script>
+var coverflow_slider = new Swiper(".coverflow_slider", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      loop: true,
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+
 const swiper = new Swiper('.swiper', {
      autoplay: {
        delay: 5000,
