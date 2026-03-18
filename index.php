@@ -30,6 +30,11 @@
 <!-- <script src="js/jquery.3.7.1.min.js"></script> -->
 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/ScrollTrigger.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/SplitText.min.js"></script> -->
+
 </head>
 
 <body>
@@ -163,7 +168,66 @@
     </div>
 </section>
 
+<section class="section_3">
+    <div class="text">
+        <span>LAUNCHES</span>
+        <span>EXPERIENCES</span>
+        <span>SPECTACLES</span>
+        <span>PRODUCTIONS</span>
+        <span>CELEBRATIONS</span>
+        <span>CONFERENCES</span>
+    </div>
+</section>
 
+<section class="section_4">
+    <div class="container">
+        <div class="inner_container">
+            
+            <div class="heading orange">THE BIG IDEA</div>
+            <div class="text">
+                <p>Brands today don’t need just events.<br>They need moments worth capturing.<br>Stories worth sharing.<br>And experiences that continue to engage long after the lights go off.</p>
+                <p>Young Xperiences bridges the gap between physical experiences and digital storytelling by designing<br> setup-first events that naturally generate high-quality, authentic content for social media, PR, and<br> performance-led brand campaigns.</p>
+            </div>
+            <div class="img_box">
+                <img src="images/the-big-idea.png">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="section_5 our_journey">
+    <!-- <div class="container"> -->
+        <!-- <div class="inner_container"> -->
+            
+            <div class="img_box">
+                <img src="images/bg/our-journey.jpg">
+            </div>
+            <div class="text_overlay">
+                <div class="heading orange">OUR JOURNEY</div>
+                <div class="text">
+                    <p>Young began its journey in 2009, helping brands find their voice through sharp strategy, branding, and marketing-led thinking.</p>
+                    <p>Kreative Hook followed in 2011, building a strong reputation in event setups, fabrication, and on-ground execution.</p>
+                    <p>Young Xperiences brings these strengths together — combining creative intelligence, storytelling, and execution excellence to create events that are visually powerful, operationally efficient, and content-ready by design.</p>
+                </div>
+            </div>
+
+        <!-- </div> -->
+    <!-- </div> -->
+</section>
+
+<script>
+const bg = document.querySelector('.our_journey .img_box');
+
+window.addEventListener('scroll', () => {
+  const rect = bg.parentElement.getBoundingClientRect();
+  const speed = 0.3; // lower = more subtle
+
+  const offset = rect.top * speed;
+
+  bg.style.transform = `translateY(${offset}px)`;
+});
+</script>
 
 </div>
 <!-- main -->
@@ -308,6 +372,41 @@ const swiper = new Swiper('.swiper', {
 //         activeSlide.classList.add('animate');
 //     }
 // }
+</script>
+
+<script>
+gsap.config({ trialWarn: false });
+console.clear();
+gsap.registerPlugin(ScrollTrigger);
+let linesElement = document.querySelectorAll('.section_3 .text span');
+
+function makeItHappen() {
+  linesElement.forEach((target) => {
+    gsap.to(target, {
+      backgroundPositionX: 0,
+      ease: "none",
+      scrollTrigger: {
+        trigger: target,
+        // markers: true,
+        scrub: 0.5,
+        start: "top center",
+        end: "bottom center"
+      }
+    });
+  });
+}
+
+let someDelay = gsap.delayedCall(0.2, newTriggers).pause();
+window.addEventListener("resize", () => someDelay.restart(true));
+
+function newTriggers() {
+  ScrollTrigger.getAll().forEach((trigger) => {
+    trigger.kill();
+  });
+  makeItHappen();
+}
+
+makeItHappen();
 </script>
 
 </body>

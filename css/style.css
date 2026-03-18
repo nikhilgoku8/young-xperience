@@ -33,6 +33,34 @@
 	font-style: normal;
 	font-display: swap;
 }
+@font-face {
+	font-family: 'Lato_Semibold';
+	src: url('fonts/Lato-Semibold.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'PointRegular';
+	src: url('fonts/PointRegular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'PointSemiBold';
+	src: url('fonts/PointSemiBold.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Futura_Bk_BT_Book';
+	src: url('fonts/Futura-Bk-BT-Book.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
 body{
 	height: 100%;
 	font-family: 'Open Sans', sans-serif;
@@ -163,6 +191,7 @@ header nav {
 
 }
 header nav .ace-responsive-menu > li > a{
+	font-family: 'Futura_Bk_BT_Book';
 	color: #fff;
 	text-transform: none;
 	padding: 5px;
@@ -226,6 +255,11 @@ header.smaller nav {
 }
 section{
 	padding: 5vw 0;
+	position: relative;
+}
+.section_link{
+	position: absolute;
+	top: calc(var(--header-height) * -1);
 }
 .swiper-slide{
 	width: 40vw;
@@ -237,4 +271,97 @@ section{
 }
 .coverflow_slider_wrapper{
 	padding: 3vw 0 0;
+}
+
+.section_2{
+	overflow: hidden;
+}
+
+/*section_3*/
+.section_3{
+	min-height: 100vh;
+}
+.section_3{
+	background-color: #0a0203;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section_3 .text{
+	padding: 5vw 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.section_3 .text span {
+	font-family: 'Operetta_Light';
+	background: linear-gradient(
+		to right,
+		var(--orange) 50%,
+		rgb(255, 255, 255) 50%
+	);
+	background-size: 200% 100%;
+	background-position-x: 100%;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+
+	line-height: 1.2; 
+	font-size: 12vmin;
+}
+.section_3 .text span:nth-child(odd){
+	padding: 0 15vw 0 0;
+}
+.section_3 .text span:nth-child(even){
+	padding: 0 0 0 15vw;
+}
+/*section_4*/
+.section_4 .inner_container{
+	text-align: center;
+}
+.section_4 .inner_container .text{
+	padding: 0 0 2vw;
+}
+
+/*section_5*/
+.section_5{
+	/*height: 500px;*/
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+.section_5 .img_box{
+	position: absolute;
+	top: -20%;
+	left: 0;
+	width: 100%;
+	height: 140%;
+	background: url('../images/bg/our-journey.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	will-change: transform;
+}
+.section_5 .img_box img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.section_5 .text_overlay{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.section_5 .text_overlay .text{
+	max-width: 100px;
+	margin: auto;
+}
+.section_5 .text_overlay .text p{
+	color: #fff;
 }
