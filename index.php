@@ -229,6 +229,39 @@ window.addEventListener('scroll', () => {
 });
 </script>
 
+<section class="section_6 specialize">
+    <div class="contain_80">
+        <div class="inner_container">
+            
+            <div class="heading orange">WHAT WE SPECIALIZE IN</div>
+            <div class="text">
+                <p>Our combined experience includes working with leading watch brands such as Movado, Timex, and Seiko — creating retail environments that improve visibility, recall, and walk-in conversions.</p>
+                <p>Visionary specializes in small-format events and watch brand retail display development. Together, we bring strategic thinking, creative design, and execution excellence to retail spaces.</p>
+                <p>Our Execution Partner – Visionary</p>
+            </div>
+            <div class="list_info">
+                <ul>
+                    <li>Small-format brand  <br> events at retail locations</li>
+                    <li class="divider"></li>
+                    <li>In-store launch  <br> setups & pop-up activations</li>
+                    <li class="divider"></li>
+                    <li>Window displays & visual <br> merchandising systems</li>
+                    <li class="divider"></li>
+                    <li>Shop-in-shop and <br> kiosk formats</li>
+                    <li class="divider"></li>
+                    <li>Watch brand retail outlet <br> design & execution</li>
+                </ul>
+            </div>
+            <div class="img_boxes">
+                <div class="img_box">
+                    <img src="images/specializes/asda.png">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 </div>
 <!-- main -->
 

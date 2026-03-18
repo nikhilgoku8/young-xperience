@@ -63,9 +63,12 @@
 }
 body{
 	height: 100%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato_Regular';
 	font-size: clamp(14px, 1.25vw, 18px);
 	background-color: #f1e5d7;
+
+	line-height: 1.5;
+    color: #0a0203;
 }
 #main{
 	width:100%;
@@ -83,7 +86,7 @@ table, th, td {
 th, td {
     padding: 10px;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato_Regular';
     text-align: center;
 }
 th {
@@ -116,6 +119,10 @@ p{
 }
 .contain_90{
 	width: 90%;
+	margin: 0 auto;
+}
+.contain_80{
+	width: 80%;
 	margin: 0 auto;
 }
 .container:before, .container:after, .row:before, .row:after{
@@ -359,9 +366,36 @@ section{
 	text-align: center;
 }
 .section_5 .text_overlay .text{
-	max-width: 100px;
-	margin: auto;
+	width: 1000px;
+	max-width: 90%;
 }
 .section_5 .text_overlay .text p{
 	color: #fff;
+}
+.section_6{
+	text-align: center;
+}
+.section_6 .text{
+	width: 1000px;
+	max-width: 90%;
+	margin: auto;
+	padding: 0 0 3vw;
+}
+.section_6 .text p{
+	padding: 0;
+}
+.section_6 .list_info{
+	padding: 0 0 3vw;
+}
+.section_6 .list_info ul{
+	display: flex;
+	justify-content: space-between;
+}
+.section_6 .list_info ul li{
+	line-height: 1.2;
+}
+.section_6 .list_info ul li.divider{
+	width: 3px;
+	background-color: var(--orange);
+	margin: 0 1vw;
 }
