@@ -252,19 +252,270 @@ window.addEventListener('scroll', () => {
                     <li>Watch brand retail outlet <br> design & execution</li>
                 </ul>
             </div>
-            <div class="img_boxes">
-                <div class="img_box">
-                    <img src="images/specializes/asda.png">
+
+            <div class="images_slider_wrapper">
+                <div class="three_img_swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="images_boxes">
+                                <div class="img_box">
+                                    <img src="images/specializes/1.png">
+                                </div>
+                                <div class="img_box">
+                                    <img src="images/specializes/2.png">
+                                </div>
+                                <div class="img_box">
+                                    <img src="images/specializes/3.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="images_boxes">
+                                <div class="img_box">
+                                    <img src="images/specializes/3.png">
+                                </div>
+                                <div class="img_box">
+                                    <img src="images/specializes/1.png">
+                                </div>
+                                <div class="img_box">
+                                    <img src="images/specializes/2.png">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
+            </div>
+            <!-- images_slider_wrapper -->
+
+            <div class="text text_2">
+                <p>This vertical focuses on creating high-impact, small-format retail environments where design precision, visual merchandising, and storytelling come together to enhance brand presence and customer engagement at the point of sale.</p>
+                <br>
+                <p>Extending Young Xperiences beyond large-format events, we now offer specialized retail store design and execution solutions for watch brands, in collaboration with our execution partner Visionary</p>
+            </div>
+
+            <div class="sub_heading orange">RETAIL STORE & WATCH BRAND EXPERIENCES</div>
+
+            <div class="list_info list_info_2">
+                <ul>
+                    <li>
+                        Product Launches & Brand<br>Reveal Events
+                        <span class="vertical_divider"></span>
+                        Wedding & Destination <br> Wedding Setups
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        Real Estate Project Launches & <br> Experience Zones
+                        <span class="vertical_divider"></span>
+                        Pharma Conferences & <br> Industry Events
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        Large-Format Corporate & <br> Brand Events
+                        <span class="vertical_divider"></span>
+                        Curated Corporate <br> Experiences
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        Award Shows & <br> Stage Setups
+                        <span class="vertical_divider"></span>
+                        Media House <br> Event Partnerships
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        Sets for TV Serials, Shows & <br> OTT Productions
+                        <span class="vertical_divider"></span>
+                        Concept-to-Execution <br> Event Curation
+                    </li>
+                </ul>
+            </div>
+            <!-- list_info_2 -->
+
+            <div class="images_slider_wrapper_2">
+                <div class="three_img_swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="images_boxes">
+                                <div class="img_box">
+                                    <img src="images/experiences/1.png">
+                                </div>
+                                <div class="img_box">
+                                    <img src="images/experiences/2.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="images_boxes">
+                                <div class="img_box">
+                                    <img src="images/experiences/2.png">
+                                </div>
+                                <div class="img_box">
+                                    <img src="images/experiences/1.png">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- images_slider_wrapper -->
+
+            <div class="sub_heading orange">WHAT MAKES US DIFFERENT</div>
+
+            <div class="list_info list_info_3">
+                <ul>
+                    <li>Setup-first thinking: Every event is <br> designed as a visual and <br> content ecosystem</li>
+                    <li>Strong storytelling DNA from <br> oung (since 2009)</li>
+                    <li>Deep execution and fabrication <br> expertise from <br> Kreative Hook (since 2011)</li>
+                    <li>Film City–certified art <br> Direction led by our partner, <br> Mr. Nishikant</li>
+                    <li>Scalable solutions <br> for small, mid, and large <br> format events</li>
+                    <li>Efficient planning that <br> respects timelines, budgets, <br> and brand intent</li>
+                </ul>
+            </div>
+            <!-- list_info_3 -->
+
+            <div class="images_slider_wrapper_3">
+                <div class="three_img_swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="images_boxes">
+                                <div class="img_box">
+                                    <img src="images/specializes/1.png">
+                                </div>
+                                <div class="img_box">
+                                    <img src="images/specializes/2.png">
+                                </div>
+                                <div class="img_box">
+                                    <img src="images/specializes/3.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="images_boxes">
+                                <div class="img_box">
+                                    <img src="images/specializes/3.png">
+                                </div>
+                                <div class="img_box">
+                                    <img src="images/specializes/1.png">
+                                </div>
+                                <div class="img_box">
+                                    <img src="images/specializes/2.png">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- images_slider_wrapper -->
+
+            <div class="sub_heading orange">RETAIL STORE & WATCH BRAND EXPERIENCES</div>
+
+            <div class="text text_3">
+                <p>Every structure we create, every set we design, and every experience we curate is planned with one clear objective — to help brands generate authentic content that audiences actually engage with.</p>
             </div>
 
         </div>
     </div>
 </section>
 
+<section class="our_features">
+    <div class="inner_container">
+        
+        <div class="width_65">
+            <div class="left_info">
+
+                <div class="txt_box">
+                    <div class="sub_title">Who We Work With</div>
+                    <ul>
+                        <li>Brands & Corporates</li>
+                        <li>Real Estate Developers</li>
+                        <li>Media Houses & Broadcasters</li>
+                        <li>Entertainment & Production Houses</li>
+                        <li>Pharma & Healthcare Brands</li>
+                        <li>Wedding Planners & Families</li>
+                        <li>Marketing & Event Agencies</li>
+                    </ul>
+                </div>
+                <div class="txt_box">
+                    <div class="sub_title">Closing Statement</div>
+                    <p>Young Xperiences is built for brands that want more than events. We create experiences that tell stories. Stories that drive engagement. And engagement that delivers value. Let’s create something worth experiencing. And worth sharing.</p>
+                </div>
+                <div class="txt_box">
+                    <div class="sub_title">Our Approach</div>
+                    <ol>
+                        <li>Understand the brand, audience, and objective</li>
+                        <li>Conceptualise a setup-led experience</li>
+                        <li>Design environments that translate on camera</li>
+                        <li>Execute with precision and efficiency</li>
+                        <li>Enable content capture for extended brand usage</li>
+                    </ol>
+                </div>
+                <div class="txt_box">
+                    <div class="sub_title">Why Brands Choose <br>Young Xperiences</div>
+                    <p>Because we think like brand builders. <br> We design like storytellers.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="width_35">
+            <div class="img_box">
+                <img src="images/features.png">
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- our_features -->
+
 </div>
 <!-- main -->
 
+<footer>
+    <span class="section_link" id="contact-us"></span>
+    <div class="contain_90">
+        <div class="inner_container">
+            
+            <div class="logo_box scale-in">
+                <img src="images/logo.png">
+            </div>
+            <div class="right_pane">
+                <div class="upper_sec">
+                    <div class="info_box">
+                        <div class="title scale-in">YFX Creations</div>
+                        <div class="sub_title scale-in">A division of Youngistan Creatives & Digital Services Pvt. Ltd.</div>
+                    </div>
+                </div>
+                <div class="lower_sec">
+                    <div class="info_box width_55">
+                        <div class="title scale-in">Websites:</div>
+                        <div class="link_text scale-in">
+                            <a href="http://www.yfxcreations.com/" target="_blank">www.yfxcreations.com</a>
+                        </div>
+                        <div class="link_text scale-in">
+                            <a href="http://www.youngistancreatives.com/yfxcreations" target="_blank">www.youngistancreatives.com/yfxcreations</a>
+                        </div>
+                    </div>
+                    <div class="info_box width_45">
+                        <div class="title scale-in">Contact:</div>
+                        <div class="link_text scale-in">
+                            <a href="tel:+919820010959" target="_blank">9820010959</a>
+                            <!--  /
+                            <a href="tel:+919920691623" target="_blank">9920691623</a> -->
+                        </div>
+                        <div class="link_text scale-in">
+                            <a href="mailto:wilfredf@youngistancreatives.com" target="_blank">wilfredf@youngistancreatives.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
 
 
 <!--sticky header-->
@@ -355,6 +606,15 @@ var coverflow_slider = new Swiper(".coverflow_slider", {
         el: ".swiper-pagination",
       },
     });
+
+const three_img_swiper = new Swiper('.three_img_swiper', {
+    effect: "fade",
+    spaceBetween: 30,
+    autoplay: {
+       delay: 3000,
+    },
+    loop: true,
+});
 
 const swiper = new Swiper('.swiper', {
      autoplay: {
