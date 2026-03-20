@@ -119,8 +119,8 @@
     </div>
     <div class="text_overlay">
         <div class="inner_box">
-            <div class="heading">FROM SETS TO STORIES. <br> FROM EVENTS TO <br> ENGAGEMENT.</div>
-            <p>Young Xperiences is a natural evolution of two proven creative legacies - Young (est. 2009) and <br>
+            <div class="heading fade-in-up">FROM SETS TO STORIES. <br> FROM EVENTS TO <br> ENGAGEMENT.</div>
+            <p class="fade-in-up">Young Xperiences is a natural evolution of two proven creative legacies - Young (est. 2009) and <br>
                 Kreative Hook (est. 2011). Together, we bring over a decade of experience in branding, content, set creation, and event <br>
                  execution to deliver experiences that don’t just look good - they work harder for brands.</p>
         </div>
@@ -701,6 +701,8 @@ function newTriggers() {
 
 makeItHappen();
 </script>
+
+<script src="js/custom.js"></script>
 
 </body>
 </html>
