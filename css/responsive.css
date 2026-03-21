@@ -194,9 +194,31 @@ header.smaller .logo {
     padding: 8px 0!important;
 }
 
+.heading{
+	font-size: 7vw;
+}
+.heading br{
+	display: none;
+}
 
-
-
+.hero .img_box{
+	width: 100%;
+	min-height: 80vh;
+	position: relative;
+}
+.hero .img_box img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.hero .text_overlay .inner_box{
+	padding: 0;
+	width: 90%;
+}
+.hero .text_overlay .inner_box p{
+	text-align: center;
+}
 
 
 
