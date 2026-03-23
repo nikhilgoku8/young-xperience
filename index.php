@@ -129,8 +129,8 @@
 <!-- hero -->
 
 <section class="section_2">
-    <div class="heading orange">FROM SETS TO STORIES.<br>FROM EVENTS TO ENGAGEMENT.</div>
-    <p class="center">An experience-led event and setup company creating high-impact environments that fuel authentic<br>content, brand visibility, and real engagement — on-ground and across digital platforms.</p>
+    <div class="heading orange fade-in-up">FROM SETS TO STORIES.<br>FROM EVENTS TO ENGAGEMENT.</div>
+    <p class="center fade-in-up">An experience-led event and setup company creating high-impact environments that fuel authentic<br>content, brand visibility, and real engagement — on-ground and across digital platforms.</p>
     <div class="coverflow_slider_wrapper">
         <!-- Slider main container -->
         <div class="coverflow_slider">
@@ -183,12 +183,12 @@
     <div class="container">
         <div class="inner_container">
             
-            <div class="heading orange">THE BIG IDEA</div>
-            <div class="text">
+            <div class="heading orange fade-in-up">THE BIG IDEA</div>
+            <div class="text fade-in-up">
                 <p>Brands today don’t need just events.<br>They need moments worth capturing.<br>Stories worth sharing.<br>And experiences that continue to engage long after the lights go off.</p>
                 <p>Young Xperiences bridges the gap between physical experiences and digital storytelling by designing<br> setup-first events that naturally generate high-quality, authentic content for social media, PR, and<br> performance-led brand campaigns.</p>
             </div>
-            <div class="img_box">
+            <div class="img_box fade-in-scale-up">
                 <img src="images/the-big-idea.png">
             </div>
 
@@ -204,8 +204,8 @@
                 <img src="images/bg/our-journey.jpg">
             </div>
             <div class="text_overlay">
-                <div class="heading orange">OUR JOURNEY</div>
-                <div class="text">
+                <div class="heading orange fade-in-up">OUR JOURNEY</div>
+                <div class="text fade-in-up">
                     <p>Young began its journey in 2009, helping brands find their voice through sharp strategy, branding, and marketing-led thinking.</p>
                     <p>Kreative Hook followed in 2011, building a strong reputation in event setups, fabrication, and on-ground execution.</p>
                     <p>Young Xperiences brings these strengths together — combining creative intelligence, storytelling, and execution excellence to create events that are visually powerful, operationally efficient, and content-ready by design.</p>
@@ -233,13 +233,13 @@ window.addEventListener('scroll', () => {
     <div class="contain_80">
         <div class="inner_container">
             
-            <div class="heading orange">WHAT WE SPECIALIZE IN</div>
-            <div class="text">
+            <div class="heading orange fade-in-up">WHAT WE SPECIALIZE IN</div>
+            <div class="text fade-in-up">
                 <p>Our combined experience includes working with leading watch brands such as Movado, Timex, and Seiko — creating retail environments that improve visibility, recall, and walk-in conversions.</p>
                 <p>Visionary specializes in small-format events and watch brand retail display development. Together, we bring strategic thinking, creative design, and execution excellence to retail spaces.</p>
                 <p>Our Execution Partner – Visionary</p>
             </div>
-            <div class="list_info">
+            <div class="list_info fade-in-up">
                 <ul>
                     <li>Small-format brand  <br> events at retail locations</li>
                     <li class="divider"></li>
@@ -253,7 +253,7 @@ window.addEventListener('scroll', () => {
                 </ul>
             </div>
 
-            <div class="images_slider_wrapper">
+            <div class="images_slider_wrapper fade-in-scale-up">
                 <div class="three_img_swiper">
                     <div class="swiper-wrapper">
 
@@ -289,15 +289,15 @@ window.addEventListener('scroll', () => {
             </div>
             <!-- images_slider_wrapper -->
 
-            <div class="text text_2">
+            <div class="text text_2 fade-in-up">
                 <p>This vertical focuses on creating high-impact, small-format retail environments where design precision, visual merchandising, and storytelling come together to enhance brand presence and customer engagement at the point of sale.</p>
                 <br>
                 <p>Extending Young Xperiences beyond large-format events, we now offer specialized retail store design and execution solutions for watch brands, in collaboration with our execution partner Visionary</p>
             </div>
 
-            <div class="sub_heading orange">RETAIL STORE & WATCH BRAND EXPERIENCES</div>
+            <div class="sub_heading orange fade-in-up">RETAIL STORE & WATCH BRAND EXPERIENCES</div>
 
-            <div class="list_info list_info_2">
+            <div class="list_info list_info_2 fade-in-up">
                 <ul>
                     <li>
                         Product Launches & Brand<br>Reveal Events
@@ -332,7 +332,7 @@ window.addEventListener('scroll', () => {
             </div>
             <!-- list_info_2 -->
 
-            <div class="images_slider_wrapper_2">
+            <div class="images_slider_wrapper_2 fade-in-scale-up">
                 <div class="three_img_swiper">
                     <div class="swiper-wrapper">
 
@@ -362,9 +362,9 @@ window.addEventListener('scroll', () => {
             </div>
             <!-- images_slider_wrapper -->
 
-            <div class="sub_heading orange">WHAT MAKES US DIFFERENT</div>
+            <div class="sub_heading orange fade-in-up">WHAT MAKES US DIFFERENT</div>
 
-            <div class="list_info list_info_3">
+            <div class="list_info list_info_3 fade-in-up">
                 <ul>
                     <li>Setup-first thinking: Every event is <br> designed as a visual and <br> content ecosystem</li>
                     <li>Strong storytelling DNA from <br> oung (since 2009)</li>
@@ -376,7 +376,7 @@ window.addEventListener('scroll', () => {
             </div>
             <!-- list_info_3 -->
 
-            <div class="images_slider_wrapper_3">
+            <div class="images_slider_wrapper_3 fade-in-scale-up">
                 <div class="three_img_swiper">
                     <div class="swiper-wrapper">
 
@@ -412,9 +412,9 @@ window.addEventListener('scroll', () => {
             </div>
             <!-- images_slider_wrapper -->
 
-            <div class="sub_heading orange">RETAIL STORE & WATCH BRAND EXPERIENCES</div>
+            <div class="sub_heading orange fade-in-up">RETAIL STORE & WATCH BRAND EXPERIENCES</div>
 
-            <div class="text text_3">
+            <div class="text text_3 fade-in-up">
                 <p>Every structure we create, every set we design, and every experience we curate is planned with one clear objective — to help brands generate authentic content that audiences actually engage with.</p>
             </div>
 
@@ -429,8 +429,8 @@ window.addEventListener('scroll', () => {
             <div class="left_info">
 
                 <div class="txt_box">
-                    <div class="sub_title">Who We Work With</div>
-                    <ul>
+                    <div class="sub_title fade-in-up">Who We Work With</div>
+                    <ul class=" fade-in-up">
                         <li>Brands & Corporates</li>
                         <li>Real Estate Developers</li>
                         <li>Media Houses & Broadcasters</li>
@@ -441,12 +441,12 @@ window.addEventListener('scroll', () => {
                     </ul>
                 </div>
                 <div class="txt_box">
-                    <div class="sub_title">Closing Statement</div>
-                    <p>Young Xperiences is built for brands that want more than events. We create experiences that tell stories. Stories that drive engagement. And engagement that delivers value. Let’s create something worth experiencing. And worth sharing.</p>
+                    <div class="sub_title fade-in-up">Closing Statement</div>
+                    <p class=" fade-in-up">Young Xperiences is built for brands that want more than events. We create experiences that tell stories. Stories that drive engagement. And engagement that delivers value. Let’s create something worth experiencing. And worth sharing.</p>
                 </div>
                 <div class="txt_box">
-                    <div class="sub_title">Our Approach</div>
-                    <ol>
+                    <div class="sub_title fade-in-up">Our Approach</div>
+                    <ol class=" fade-in-up">
                         <li>Understand the brand, audience, and objective</li>
                         <li>Conceptualise a setup-led experience</li>
                         <li>Design environments that translate on camera</li>
@@ -455,14 +455,14 @@ window.addEventListener('scroll', () => {
                     </ol>
                 </div>
                 <div class="txt_box">
-                    <div class="sub_title">Why Brands Choose <br>Young Xperiences</div>
-                    <p>Because we think like brand builders. <br> We design like storytellers.</p>
+                    <div class="sub_title fade-in-up">Why Brands Choose <br>Young Xperiences</div>
+                    <p class=" fade-in-up">Because we think like brand builders. <br> We design like storytellers.</p>
                 </div>
 
             </div>
         </div>
         <div class="width_35">
-            <div class="img_box">
+            <div class="img_box fade-in-scale-up">
                 <img src="images/features.png">
             </div>
         </div>

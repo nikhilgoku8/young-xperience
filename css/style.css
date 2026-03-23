@@ -515,6 +515,7 @@ section{
 	padding: 0 0 0 10vw;
 	background-color: var(--orange);
 	color: #fff;
+	overflow: hidden;
 }
 .our_features .inner_container{
 	display: flex;

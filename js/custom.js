@@ -122,6 +122,31 @@ gsap.utils.toArray('.fade-in-scale-up').forEach((el) => {
     );
 });
 
+gsap.utils.toArray('.scale-in').forEach((el) => {
+    gsap.fromTo(
+      el,
+      {
+          y: 0,
+          scale: 0.5,
+          opacity: 0
+      },
+      {
+          y: 0,
+          scale: 1,
+          opacity: 1,
+          duration: 1,
+          ease: 'back.out(1.7)',
+          scrollTrigger: {
+            trigger: el,
+            start: 'top 100%',
+            end: 'top 0%',
+            toggleActions: 'play reverse play reverse',
+            // markers: true
+          }
+      }
+    );
+});
+
 // gsap.utils.toArray('.heart').forEach((el, i) => {
 
 //     const section = el.closest('section');
