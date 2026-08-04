@@ -248,6 +248,9 @@ header.smaller nav {
 .hero{
 	position: relative;
 }
+.hero .img_box img{
+	width: 100%;
+}
 .hero .text_overlay{
 	position: absolute;
 	left: 0;
