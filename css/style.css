@@ -626,3 +626,24 @@ footer .inner_container .right_pane .lower_sec .info_box:first-child{
 footer .inner_container .right_pane .lower_sec .info_box:nth-child(2){
 	padding: 0 0 0 2vw;
 }
+
+.case_study .case_study_swiper{
+	overflow: hidden;
+}
+.case_study .case_study_box{
+	/* display: flex; */
+	align-items: center;
+}
+.case_study .case_study_box .img_box{
+	width: 30vw;
+	float: left;
+	padding: 0 15px 0 0;
+}
+.case_study .case_study_box .sub_heading{
+	text-align: left;
+	padding: 0 0 10px;
+	text-transform: uppercase;
+}
+.case_study .case_study_box p{
+	padding: 0 0 10px;
+}

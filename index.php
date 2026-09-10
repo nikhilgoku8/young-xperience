@@ -422,6 +422,88 @@ window.addEventListener('scroll', () => {
     </div>
 </section>
 
+<section class="case_study">
+    <div class="contain_80">
+        <div class="inner_container">
+
+            <div class="case_study_wrapper">
+                <div class="heading orange">Case Studies</div>
+                <div class="case_study_swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="case_study_box">
+                                <div class="img_box">
+                                    <img src="images/case-studies/balumama/1.jpg">
+                                </div>
+                                <!-- <div class="text_wrapper"> -->
+                                    <div class="sub_heading orange">Balumamachya Navane Chang Bhala</div>
+                                    <p><b>Recreating a World Rooted in Faith and Heritage</b></p>
+                                    <p>Balumamachya Navane Chang Bhala is a period television series inspired by the life of Saint Balumama, a revered spiritual figure whose legacy continues to resonate across Maharashtra and Karnataka. Set in the late 19th century, the project demanded more than visually appealing sets. It required an authentic recreation of an era, a region, and a way of life.</p>
+                                    <p><b>The Challenge</b></p>
+                                    <p>The story unfolds along the Maharashtra and Karnataka border in the year 1892, where architecture, materials, and cultural influences from both regions coexist. Every structure needed to reflect the time period while remaining historically and culturally accurate, allowing viewers to immerse themselves in Balumama's journey.</p>
+                                    <p><b>Our Approach</b></p>
+                                    <p>Our design process began with extensive creative discussions and historical research. We carefully studied the architectural language of both Maharashtra and Karnataka, blending regional elements to create a believable village that felt true to its setting.</p>
+                                    <p>One of the defining characteristics of the region is its distinctive white soil. This became the foundation of our visual language, influencing the textures, finishes, and overall character of the village. Every home and street was designed to capture the understated beauty of the landscape.</p>
+                                    <p>To enrich the storytelling, we recreated several key locations central to the narrative, including Balumama's childhood school, the village square, the community well, Balumama's residence, the Sarpanch's wada, an atmospheric cave belonging to an Aghori sadhu, and the traditional potters' settlement. These spaces were not simply sets. They were designed as living environments that reflected the everyday life, culture, and traditions of a 19th century village.</p>
+                                    <p>A dedicated 30 × 40 ft chroma floor was also integrated into the production, enabling seamless execution of scenes that required visual extensions while maintaining continuity with the physical sets.</p>
+                                    <p><b>The Outcome</b></p>
+                                    <p>The final production design successfully recreated an authentic period village that balanced historical accuracy with cinematic storytelling. By combining thoughtful research, regional architectural influences, and meticulous detailing, the sets became an integral part of the narrative, allowing audiences to experience the world of Balumama as though they had stepped into it themselves.</p>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="case_study_box">
+                                <div class="img_box">
+                                    <img src="images/case-studies/ganpati/1.jpg">
+                                </div>
+                                <!-- <div class="text_wrapper"> -->
+                                    <div class="sub_heading orange">Ganpati Bappa Morya</div>
+                                    <p><b>Designing a Mythological World That Had Never Been Seen Before</b></p>
+                                    <p>Ganpati Bappa Morya, directed and produced by Mahesh Kothare under Kothare Vision, presented a unique creative challenge. The story unfolds before the birth of Lord Ganesha, exploring the early lives of Lord Shiva, Goddess Parvati, and their family. Since very little visual reference existed for this period, every environment had to be imagined, researched, and designed from the ground up.</p>
+                                    <p><b>The Challenge</b></p>
+                                    <p>Unlike traditional depictions that place Lord Shiva on Mount Kailash, this story required the creation of the legendary Shiv Mahal, a palace that has only been briefly described in ancient scriptures. The challenge was to transform these limited textual references into a believable architectural world while preserving the grandeur and spiritual essence associated with Hindu mythology.</p>
+                                    <p><b>Our Approach</b></p>
+                                    <p>The design process began with extensive research into mythology, historical texts, and traditional Indian architecture. Every space was carefully conceptualised to ensure it felt authentic while remaining visually compelling for the screen.</p>
+                                    <p>At the heart of the project was the Shiv Mahal, envisioned as an architectural masterpiece carved into the rocky landscape of Kailash. Inspired by the mythology surrounding Vishwakarma, the divine architect, the palace was designed with intricate craftsmanship, monumental forms, and a timeless aesthetic that reflected its celestial origins.</p>
+                                    <p>Beyond the palace, several key environments were created to support the narrative. These included Shiva's grand throne, the sacred bathing chamber where Lord Ganesha's birth takes place, the royal chambers of Shiva, Parvati, and Ganesha, the hermitage where Ganesha receives his education, and a mystical Nandanvan that reimagined the divine gardens of Kailash through a distinctive visual language.</p>
+                                    <p>To accommodate scenes that extended beyond the physical sets, a dedicated 30 × 40 ft chroma floor was incorporated into the production, allowing mythological worlds and large-scale visual sequences to be seamlessly integrated.</p>
+                                    <p><b>The Outcome</b></p>
+                                    <p>The project resulted in one of the most ambitious mythological television set designs in Marathi entertainment. By combining mythology, architectural research, and cinematic storytelling, we created a visually immersive world that gave form to places that had previously existed only in imagination.</p>
+                                    <p>The production was built on one of the largest television floors in Film City, Mumbai, a landmark space that continues to serve major television productions today. The scale, detail, and craftsmanship of the project made it a defining milestone in our journey as production designers.</p>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="case_study_box">
+                                <div class="img_box">
+                                    <img src="images/case-studies/property-launch/1.jpg">
+                                </div>
+                                <!-- <div class="text_wrapper"> -->
+                                    <div class="sub_heading orange">Property Launch Experience Centres</div>
+                                    <p><b>Designing Spaces That Inspire Confidence and Drive Sales</b></p>
+                                    <p>A successful property launch is more than an event. It is the first physical interaction between a developer and a prospective buyer. Every space must communicate credibility, create excitement, and allow visitors to experience the project's vision long before construction is complete.</p>
+                                    <p><b>The Challenge</b></p>
+                                    <p>Each developer had a unique identity and a distinct audience to engage. The challenge was to transform temporary structures into premium experience centres that reflected the scale and aspirations of the project while encouraging visitors to spend time exploring, interacting, and making informed decisions.</p>
+                                    <p><b>Our Approach</b></p>
+                                    <p>Every launch was designed as a thoughtfully planned customer journey. Large hangar structures were transformed into fully functional experience centres featuring reception areas, immersive display zones, conference rooms, private sales discussion spaces, meeting rooms, dining areas, and dedicated kids' zones.</p>
+                                    <p>Every element was planned to enhance comfort, encourage meaningful conversations, and create an environment where visitors could visualise the lifestyle being offered. The design balanced functionality with aesthetics, ensuring each experience centre reflected the developer's brand and the project's premium positioning.</p>
+                                    <p>These launches were executed across multiple locations, including Talegaon, Lonavala, Bhiwandi, Vasai–Naigaon, and Bandra. Depending on the project requirements, each site incorporated multiple climate-controlled or open hangar structures, carefully configured to deliver a seamless visitor experience.</p>
+                                    <p><b>The Outcome</b></p>
+                                    <p>Each experience centre became more than a sales venue. It became an extension of the developer's vision, allowing prospective buyers to connect with the project in an engaging and memorable way. By combining strategic planning, thoughtful spatial design, and flawless execution, we created environments that strengthened buyer confidence and supported successful project launches.</p>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- images_slider_wrapper -->
+
+        </div>
+    </div>
+</section>
+
 <section class="our_features">
     <div class="inner_container">
         
@@ -609,6 +691,16 @@ var coverflow_slider = new Swiper(".coverflow_slider", {
 
 const three_img_swiper = new Swiper('.three_img_swiper', {
     effect: "fade",
+    spaceBetween: 30,
+    autoplay: {
+       delay: 3000,
+    },
+    loop: true,
+});
+
+const case_study_swiper = new Swiper('.case_study_swiper', {
+    slidesPerView: 1,
+    // effect: "fade",
     spaceBetween: 30,
     autoplay: {
        delay: 3000,

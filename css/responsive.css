@@ -289,7 +289,13 @@ footer .inner_container .right_pane .lower_sec .info_box:nth-child(2){
 	padding: 5vw 0 0;
 }
 
-
+.case_study .case_study_box .img_box{
+	width: 100%;
+	margin: 0 0 15px;
+}
+.case_study .case_study_box .sub_heading{
+	text-align: center;
+}
 
 
 
